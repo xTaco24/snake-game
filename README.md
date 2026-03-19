@@ -1,35 +1,46 @@
-# 🐍 Snake Game
+# 🐍 Snake Game - Terminal Version
 
-A classic Snake game built with Python and Pygame.
+A classic Snake game that runs in your terminal. **No external dependencies needed!**
+
+## ✅ Works with Python 3.14+
+
+This version uses Python's built-in `curses` library, so no `pip install` needed!
 
 ## 🎮 How to Play
 
-- Use **Arrow Keys** to control the snake
-- Eat the **red food** to grow and score points
-- Avoid hitting the walls or your own tail
-- Press **SPACE** to pause/resume
-- Press **Q** to quit
+- **Arrow Keys** to control the snake
+- **Eat the `*`** to grow and score points
+- **Avoid walls** and your own tail
+- **SPACE** to pause/resume
+- **Q** to quit
 
-## 🚀 Installation
+## 🚀 Installation & Run
 
 ```bash
-# Clone the repository
+# Clone
 git clone https://github.com/xTaco24/snake-game.git
 cd snake-game
 
-# Install pygame
-pip install pygame
-
-# Run the game
+# Run (no pip install needed!)
 python snake.py
 ```
 
-## 🛠️ Requirements
+> 💡 **Note:** On Windows, you may need to install windows-curses:
+> ```bash
+> pip install windows-curses
+> ```
+> On macOS/Linux, it works out of the box!
 
-- Python 3.7+
-- Pygame
+## 🎯 Features
 
-## 📝 Controls
+- ✅ No external dependencies (uses built-in curses)
+- ✅ Works with Python 3.14+
+- ✅ Score tracking
+- ✅ Increasing speed
+- ✅ Pause functionality
+- ✅ Game over screen
+
+## 🕹️ Controls
 
 | Key | Action |
 |-----|--------|
@@ -39,14 +50,6 @@ python snake.py
 | → | Move Right |
 | Space | Pause/Resume |
 | Q | Quit |
-
-## 🎯 Features
-
-- Classic snake gameplay
-- Score tracking
-- Increasing speed as you grow
-- Game over screen with score
-- Pause functionality
 
 ---
 
